@@ -13,6 +13,16 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        epilogue: ["Epilogue", "sans-serif"],
+      },
+      lineHeight: {
+        small: "22.4px", // Custom line-height value
+      },
+      colors: {
+        customGray: "#515B6F",
+        customBlack: "#25324B",
+      },
     },
   },
   plugins: [],
