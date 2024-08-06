@@ -52,7 +52,7 @@ const UserForm = () => {
       <h1 className="font-poppins text-4xl font-black leading-10 text-center text-[#25324B]">
         Sign Up Today!
       </h1>
-      <button className=" flex items-center gap-2 px-4 py-3 rounded-[5px] border border-[#CCCCF5] bg-white text-[#4640DE] my-4 text-center font-epilogue font-bold ">
+      <button className=" flex items-center gap-2 px-4 py-3 rounded-[5px] border border-[#CCCCF5] bg-white text-[#4640DE] my-4  font-epilogue font-bold ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="1.5em"
@@ -167,11 +167,11 @@ const UserForm = () => {
       <p className="w-full text-left text-[#7C8493] ">
         By clicking 'Continue', you acknowledge that you have read and accepted
         our{" "}
-        <a className="text=[#23206f]" href="/terms">
+        <a className="text-[#23206f]" href="/terms">
           Terms of Service
         </a>{" "}
         and{" "}
-        <a className="text=[#23206f]" href="/privacy">
+        <a className="text-[#23206f]" href="/privacy">
           Privacy Policy
         </a>
         .
