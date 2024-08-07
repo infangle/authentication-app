@@ -15,16 +15,24 @@ const Home = () => {
     setShowComponent("login");
   };
 
+  const handleFormClick = () => {
+    setShowComponent("userForm");
+  };
+
   return (
     <div>
       <button onClick={handleSignUpClick}>
-        {showComponent === "" ? "Sign Up" : ""}
+        {showComponent === "" ? "verify" : ""}
       </button>
       <p onClick={handleLoginClick} style={{ cursor: "pointer", color: "blue" }}>
         {showComponent === "" ? "Login" : ""}
       </p>
+      <p onClick={handleFormClick} style={{ cursor: "pointer", color: "blue" }}>
+        {showComponent === "" ? "signin" : ""}
+      </p>
       {showComponent === "verify" && <Verify />}
       {showComponent === "login" && <Login />}
+      {showComponent === "userForm" && <UserForm />}
     </div>
   );
 };

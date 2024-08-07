@@ -14,6 +14,7 @@ const Login = () => {
 
   return (
     <div className="flex h-screen">
+      <div className="w-1/2 bg-gray-100"></div> {/* Optional: Left half for background */}
       <div className="w-1/2 flex items-center justify-center">
         <div className="flex flex-col items-center justify-center w-full max-w-md py-8 px-4 gap-8">
           <h2 className="font-poppins text-4xl font-black leading-10 text-center text-[#25324B]">
@@ -69,7 +70,6 @@ const Login = () => {
           </form>
         </div>
       </div>
-      <div className="w-1/2 bg-gray-100"></div> {/* Optional: Placeholder for the left half */}
     </div>
   );
 };
